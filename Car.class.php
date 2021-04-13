@@ -1,6 +1,5 @@
 <?php
 
-
 class Car
 {
     private $name;
@@ -18,26 +17,32 @@ class Car
     {
         return $this->name;
     }
+
     public function getNumber()
     {
         return $this->number;
     }
+
     public function getColor()
     {
         return $this->color;
     }
+
     public function setName($name)
     {
         $this->name = $name;
     }
+
     public function setNumber($number)
     {
         $this->number = $number;
     }
+
     public function setColor($color)
     {
         $this->color = $color;
     }
+
     public function information()
     {
         return "車の車種:" . $this->name . "\n" .
